@@ -18,8 +18,8 @@ The interface completely re-imagines custom desktop layout mechanics with an acc
 
 ## Engineered Tech Stack
 
-- **Core Logic & Compilation:** React 19 (Hooks, Concurrent Architecture), Vite Bundler, Vanilla JavaScript ES6+, TypeScript.
-- **Layout Engineering & Optimization:** Modern Native CSS Nesting, SASS/SCSS, BEM Architecture, Bootstrap Icons Core.
+- **Core Logic & Compilation:** React 19 (Hooks, Concurrent Architecture), Zustand State Engine, Vite Bundler, Vanilla JavaScript ES6+, TypeScript.
+- **Layout Engineering & Optimization:** Modern Native CSS Nesting, SASS/SCSS, BEM Architecture, NPM Package Manager, Bootstrap Icons Core.
 - **Creative Hardware Pipeline:** Blender 3D (Spatial modeling, timeline mechanics, custom texturing).
 
 ---

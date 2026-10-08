@@ -54,6 +54,7 @@ export const TechStack = () => {
 					<button className="tech-tile">
 						<i className="bi bi-box-fill"></i> Turbopack (Rust)
 					</button>
+					<button className="tech-tile">Zustand</button>
 				</div>
 			</div>
 

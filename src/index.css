@@ -18,7 +18,7 @@
 
 	--text-main: #f1f5f9;
 	--text-muted: #9fa0a0;
-	--accent-color: #d4c5b9;
+	--accent-color: #FFD085;
 
 	--nm-flat: 4px 4px 8px #12151b, -4px -4px 8px #303540;
 	--nm-concave: inset 3px 3px 6px #12151b, inset -3px -3px 6px #303540;
@@ -28,6 +28,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body {

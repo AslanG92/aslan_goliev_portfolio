@@ -39,6 +39,7 @@ export default function App() {
 				<button
 					className={`sidebar-toggle-btn tile-btn ${isSidebarOpen ? "active" : ""}`}
 					onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+					aria-label={isSidebarOpen ? "Close navigation menu" : "Open navigation menu"}
 				>
 					<i className={isSidebarOpen ? "bi bi-x-lg" : "bi bi-list"}></i>
 				</button>
@@ -46,11 +47,19 @@ export default function App() {
 
 			<aside className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
 				<div className="sidebar-top-actions">
-					<button className="sidebar-close-tile" onClick={() => setIsSidebarOpen(false)}>
+					<button
+						className="sidebar-close-tile"
+						onClick={() => setIsSidebarOpen(false)}
+						aria-label="Close sidebar menu"
+					>
 						<i className="bi bi-chevron-left"></i>
 					</button>
 
-					<button className="sidebar-theme-tile" onClick={toggleTheme}>
+					<button
+						className="sidebar-theme-tile"
+						onClick={toggleTheme}
+						aria-label={theme === "light" ? "Switch to dark theme" : "Switch to light theme"}
+					>
 						<i className={theme === "light" ? "bi bi-moon-fill" : "bi bi-sun-fill"}></i>
 					</button>
 				</div>

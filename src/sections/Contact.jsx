@@ -39,7 +39,11 @@ export const Contact = () => {
 						<i className="bi bi-whatsapp"></i> Chat on WhatsApp
 					</a>
 
-					<a href="/Aslan_Goliev_CV.pdf" download="Aslan_Goliev_CV.pdf" className="action-contact-btn cv-btn">
+					<a
+						href={`${import.meta.env.BASE_URL}Aslan_Goliev_CV.pdf`}
+						download="Aslan_Goliev_CV.pdf"
+						className="action-contact-btn cv-btn"
+					>
 						<i className="bi bi-file-earmark-text-fill"></i> Download CV
 					</a>
 				</div>

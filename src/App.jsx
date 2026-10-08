@@ -64,7 +64,11 @@ export default function App() {
 
 					<p className="role">Frontend & React Native Developer</p>
 
-					<a href="/Aslan_Goliev_CV.pdf" download="Aslan_Goliev_CV.pdf" className="sidebar-cv-btn">
+					<a
+						href={`${import.meta.env.BASE_URL}Aslan_Goliev_CV.pdf`}
+						download="Aslan_Goliev_CV.pdf"
+						className="sidebar-cv-btn"
+					>
 						<i className="bi bi-file-earmark-arrow-down-fill"></i> Download CV
 					</a>
 				</div>

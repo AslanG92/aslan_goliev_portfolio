@@ -67,5 +67,5 @@ npm run build
 
 I am highly motivated to join an innovative international engineering team as a **Frontend / React Engineer**. Let's build something exceptional together:
 
-- **WhatsApp Direct Interface:** [Message on WhatsApp](https://wa.me)
+- **WhatsApp Direct Interface:** [Message on WhatsApp](https://wa.me/79187430929)
 - **Secure Email Hub:** [golieva92@gmail.com](mailto:golieva92@gmail.com)

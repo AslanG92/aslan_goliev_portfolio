@@ -54,7 +54,9 @@ export const TechStack = () => {
 					<button className="tech-tile">
 						<i className="bi bi-box-fill"></i> Turbopack (Rust)
 					</button>
-					<button className="tech-tile">Zustand</button>
+					<button className="tech-tile">
+						<i className="bi bi-lightning-charge"></i> Zustand State
+					</button>
 				</div>
 			</div>
 
@@ -69,6 +71,9 @@ export const TechStack = () => {
 					</button>
 					<button className="tech-tile">
 						<i className="bi bi-triangle-fill"></i> Expo Ecosystem
+					</button>
+					<button className="tech-tile">
+						<i className="bi bi-box-fill"></i> NPM Package Manager
 					</button>
 					<button className="tech-tile">
 						<i className="bi bi-git"></i> Git Version Control
